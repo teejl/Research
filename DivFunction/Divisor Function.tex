@@ -1,0 +1,106 @@
+\documentclass[12pt]{amsart}
+
+\usepackage{amssymb}
+
+\newtheorem{thm}{Theorem}
+\newtheorem{cor}{Corollary}
+
+\newcommand{\invs}{\rule[-.01in]{0in}{.18in}}
+
+\title{The Divisor Function}
+\author{Thomas Lockwood}
+
+\listfiles
+
+
+\begin{document}
+
+\maketitle
+
+\section{Erdos-Sierpinski}
+For what integer does n satisfy:
+$$\sigma(n) = \sigma(n+1)$$
+
+This problem was originally introduced by Erdos-Sierpinski who "had conjectured that there are infinitely many solutions" (Benito), however no proof. 
+
+The divisor function, $\sigma{(n)}$, is a multiplicative function in the most basic of Number Theory. The divisor function deals with the sum of the divisors of an positive integer lets call n. There are different powers of the divisor function that can be used, and unless noted otherwise just the single power will be used. The goal was to find the properties that $\sigma{(n)}=\sigma{(n+1)}$ holds. 
+
+The divisor function for the primes $p_1, p_2, ... , p_N$  and $n = \prod_{j=1}^N {{pj}^\alpha}$ can be algebraically represented as $$\sigma(n) = \sigma({p_1}^{\alpha_1})\sigma({p_2}^{\alpha_2})...\sigma({p_N}^{\alpha_N})$$ and $$\sigma({p_N}^{\alpha_N}) = 1 + {p_N} + {p_N}^2 + ... + {p_N}^{\alpha_N} = \frac{{p_N}^{\alpha_N + 1} -1} {P_N - 1}$$
+
+\section{Guy and Shanks}
+\noindent
+The first solution to show this phenomina is n = 14. 
+\\
+$$\sigma(14)= 1 + 2 + 7 + 14 = 24 = 1 + 3 + 5 + 15 = \sigma(15)$$ 
+\\
+Some other solutions (up to 10,000):
+\\
+$$\sigma(206) = \sigma(207) = 312$$
+$$\sigma(957) = \sigma(958) = 1440$$
+$$\sigma(1334) = \sigma(1335) = 2160$$
+$$\sigma(1364) = \sigma(1365) = 2688$$
+$$\sigma(1634) = \sigma(1635) = 2688$$
+$$\sigma(2685) = \sigma(2686) = 4320$$
+$$\sigma(2974) = \sigma(2975) = 4464$$
+$$\sigma(4364) = \sigma(4365) = 7644$$
+\\
+
+The next to contribute was Guy and Shanks. Finding results for n = 14, 206, 19358 in the form $$n = 2p,\; \; n + 1 = 3^{m}q$$ when $$q = 3^{m+1} - 4, \; \; p=\frac{3^{m}q-1} {2}$$ q and p are both prime and m = 1, 2, 4
+\\
+and for n = 18873, 174717, 5559060136088313 in form of $$n = 3^{m}q, \; \; n+1 = 2p$$ where $$q = 3^{m+1} - 10, \; \; p = \frac{3^{m}q + 1} {2}$$
+
+\section{Robert Spira}
+
+The gaussian integers can be defined through the sigma equation for the gaussian integers $\pi_1, \pi_2, ..., \pi_N$ and the integer $n = ({\pi_1}^{\alpha_1})({\pi_2}^{\alpha_2})...({\pi_N}^{\alpha_N})$
+can be represented with the divisor function when put all of the gaussian integers into the first quadrant
+\\ 
+
+\section{Theorems}
+
+\thm
+If and only if $\sigma(n)$ is odd, then n is a perfect square or a perfect square times a power of 2.
+\\
+\\
+\noindent
+Proof:
+\\
+$\sigma(n)$ can be split into a plethora of odd primes and 2. Let $p_1,p_2,.., p_N$ be primes. Then for $n = (p_1)(p_2)...(p_N)$
+$$\sigma(n) = \sigma(p_1)\sigma(p_2)...\sigma(p_N)$$
+Where the only even prime is 2. Taking the sum of the divisors we add the powers of the primes, so we have $$\sigma({p_1}^{\alpha}) = 1 + p_1 + {p_1}^2 + {p_1}^3 + {p_1}^{\alpha}$$
+since the only way to product an odd integer is by two odd integers $$odd * odd = odd$$ There must be an odd number of odd integers. Thus $\alpha$ must be even, otherwise there would be a contradiction; even number of odds.
+\\
+Now for the prime 2, $$\sigma(2^\beta) = 1 + 2 + 2^2 + 2^3 + ... + 2^\beta$$
+since $even + even = even$, $odd + even = odd$ then $\sigma(2^\beta)$ will always be odd. Thus a square or a power of 2 times a prime will always be odd.
+
+\thm
+If and only if $\sigma(n)$ is odd and n is an gaussian integer, then n is a perfect square or a perfect square times a power of (1+i).
+\\
+\\
+\noindent
+Proof:
+\\
+Same as above holds, except for a gaussian integer n = a + bi to be even a + b must equal an even integer and for n to be odd a + b must equal an odd integer. 
+
+\thm
+If p $\mid$ n then p $\nmid$ n+1.
+\\
+\\
+\noindent
+Proof:
+\\
+For the integer n  and the prime p, let us assume p $\mid$ n, and $\exists$ an integer q such that $p*q = n$, then we must show $\nexists$ an integer w such that $p*w = n+1$ $$p*w = p*q + 1$$ $$ p(w-q) = 1$$ However $w > q$ because $n+1>n$ which leads to our contradiction since $(w-q)*p$ can only = 1 when w-q is not an integer.
+
+\thm
+If $\exists$ an integer n and a prime p such that $\sigma(n) = p$, then either $\exists$ a positive integer k where $n = 2^k$ or a prime q in which $n = q^2$.
+\\
+\\
+\noindent
+Proof:
+\\
+If $\sigma(n)$ is odd then n is either a power of 2 or a power of two times a prime. If n is a power of 2 times a prime then it is the product of two numbers and cannot be a prime unless the power is 0. Thus, n has to be either a power of two or a prime squared.
+
+\section{References}
+arXiv:0707.2190 [math.NT]   http://arxiv.org/abs/0707.2190  
+
+
+\end{document}

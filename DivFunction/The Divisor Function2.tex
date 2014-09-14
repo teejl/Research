@@ -1,0 +1,167 @@
+\documentclass[12pt]{amsart}  
+\usepackage{geometry}                		
+\geometry{letterpaper}                   	
+\usepackage{graphicx}				
+\newtheorem{thm}{Theorem}
+\newtheorem{cor}{Corollary}
+\usepackage{amssymb}
+
+\title{Equal Consecutive Divisor Functions}
+\author{Thomas Lockwood}
+%\date{}							
+
+
+\begin{document}
+\maketitle
+%\section{}
+%\subsection{}
+\thispagestyle{empty}
+
+\section{The Integers}
+The Divisor Function, $\sigma{(n)}$ , is a multiplicative function in the most basic of Number Theory. The Divisor Function deals with the sum of the divisors of an positive integer we shall call $n$. There are different powers of the Divisor Function that can be used, and unless noted otherwise just the single power of one will be used. The goal was to find infinity many solutions to $\sigma{(n)}=\sigma{(n+1)}$ originally proposed as the Erdos-Sierpenski problem. The Divisor Function can be denoted  for the integers $n, m_1,m_2,..,m_N$ and the primes $p_1 ,p_2 ,..., p_N$ where the prime factorization of $n = ({p_1}^{m_1})({p_2}^{m_2})...({p_N}^{m_N})$ mathematically as $$\sigma(n) = \sum_{d|{n}}d = (\frac{{p_1}^{m_1+1} - 1} {{p_1} - 1}) (\frac{{p_2}^{m_2+1} - 1}{{p_2} - 1})... (\frac{{p_N}^{m_N+1} - 1}{{p_N} - 1}) $$ 
+
+What the Divisor Function does is take all integers that divides another certain integer and adds them together into one sum. For example, if we took the Divisor Function of $n = 14$, the number 14, we would have $$\sigma(14) = 1 + 2 + 7 + 14 = 24$$
+
+More importantly are there infinity many possibilities where the Divisor Function is the same for consecutive numbers, $\sigma(n) = \sigma(n+1)$. The first solution to show this phenomena is $n = 14$. 
+\\
+$$\sigma(14)= 1 + 2 + 7 + 14 = 24 = 1 + 3 + 5 + 15 = \sigma(15)$$ 
+\\
+
+Some solutions (up to 10,000):
+\\
+$$\sigma(206) = \sigma(207) = 312$$
+$$\sigma(957) = \sigma(958) = 1440$$
+$$\sigma(1334) = \sigma(1335) = 2160$$
+$$\sigma(1364) = \sigma(1365) = 2688$$
+$$\sigma(1634) = \sigma(1635) = 2688$$
+$$\sigma(2685) = \sigma(2686) = 4320$$
+$$\sigma(2974) = \sigma(2975) = 4464$$
+$$\sigma(4364) = \sigma(4365) = 7644$$
+\\
+The next to contribute Guy and Shanks, found results for $n = 14, 206, 19358$ in the form $$n = 2p,\; \; n + 1 = 3^{m}q$$ when $$q = 3^{m+1} - 4, \; \; p=\frac{3^{m}q-1} {2}$$ $q$ and $p$ are both prime and $m = 1, 2, 4$
+\\
+and for $n = 18873, 174717, 5559060136088313$ in form of $$n = 3^{m}q, \; \; n+1 = 2p$$ where $$q = 3^{m+1} - 10, \; \; p = \frac{3^{m}q + 1} {2}$$
+\\
+
+\section{The Gaussian Integers}
+A Gaussian Integer, a complex number ($a + bi$) where $a, b$ are integers and $i = \sqrt{-1}$ have different prime factorizations from regular integers. Thus the definition of $\sigma(n)$ for Gaussian Integers, denoted $g\sigma(n)$, must be defined.
+
+The Gaussian Divisor Function, $g \sigma(n)$, originally defined by Robert Spira, Where Re($d$) $> 0$ and Im($d$) $\geq 0$ and the Gaussian prime factorization for $ n = (\pi_1)^{q_1}...(\pi_1)^{q_S}$ $$g\sigma(n) = \sum_{d|{n}}d = (\frac{{\pi_1}^{q_1+1} - 1} {{\pi_1} - 1}) (\frac{{\pi_2}^{q_2+1} - 1}{{\pi_2} - 1})...(\frac{{\pi_S}^{q_n+1} - 1}{{\pi_S} - 1}) $$ or in other words the sum of all the Gaussian Integers, all put in quadrant one using units, that divide a certain number. Let that certain Gaussian Integer be 2, then we would have the prime factorization of $$ 2 = (1 + i)(1-i) $$ however, we only sum up the complex numbers in the form of its quadrant one counter part, when both the imaginary and real part are positive. This will ensure that $g\sigma(n)>n$. For example using $n = 2$, since 2 is divisible by $(1-i)$ and $(1+i)$ then we would have the 4 forms $$ (1- i) = i(1 + i) = -1(-1 + i) = -i(-1-i)$$ 
+We chose $i(i + 1)$  and $(1+i)$ since both are in quadrant one. Then we would have 
+$$2 = i(1+i)^2$$ and
+$$g \sigma(2) = 1 + (1+i) + (1+i)^2 = 3 + 2i$$
+\\
+
+Some of the solutions for consecutive for $g\sigma(n) = g\sigma(n+1)$ case
+\\
+$$g\sigma(3 + 7i) = 10 + 10i = g\sigma(4 + 7i)$$
+$$g\sigma(19 + 25i) = -20 + 60i = g\sigma(20 + 25i)$$
+$$g\sigma(19 + 75i) = -100 + 100i = g\sigma(20 + 75i)$$
+$$g\sigma(40 + 85i) = -100 + 140i  = g\sigma(41 + 85i)$$
+$$g\sigma(90 + 245i) = -320 + 480i  = g\sigma(91 + 245i))$$
+\\
+and for $g\sigma(n) = g\sigma(n+i)$ case
+\\
+$$g\sigma(15 + 9i) = 40i = g\sigma(15 + 10i)$$
+$$g\sigma(25 + 39i) = -40 + 80i  = g\sigma( 25 + 40i)$$
+$$g\sigma(25 + 90i) = -120 + 120i  = g\sigma(25 + 91i)$$
+$$g\sigma(65 + 60i) = -40 + 160i = g\sigma(65 + 61i)$$
+\\
+Lastly for $g\sigma(n) = g\sigma(n+1+i)$ case
+\\
+$$g\sigma(8 + 16i) = 10 + 10i = g\sigma(3 + 12i)$$
+$$g\sigma(5 + 5i) = 20i = g\sigma(6 + 6i)$$
+$$g\sigma(13 + 4i) = 20i = g\sigma(14 + 5i)$$
+$$g\sigma(84 + 5i) = 8 + 96i  = g\sigma(85 + 6i)$$
+$$g\sigma(90 + 6i) = -160 + 160i  = g\sigma(91 + 7i))$$
+$$g\sigma(138 + 102i) = -400 + 80i = g\sigma(139 + 103i)$$
+$$g\sigma(149 + 53i) = -340 + 180i = g\sigma(150 + 54i)$$
+\\
+For the integer case, Guy and Shanks produced results in the form where $n$ and $n+1$ were the product of two primes. Applying this to the Gaussian integer case we have some primes, $(a+bi), (c+di), (e+fi), (g+hi)$  where $(a+bi)(c+di) = n = (e+fi)(g+hi) - 1$ and $g\sigma(n) = g\sigma(n+1)$ can be solved if any 4 of the variables are known. For example, if we knew what $a,b,e,f$ equaled we can then conclude that
+$$ c = \frac{ea^2 - 2e^2a-ea-a+eb^2-bf-2ebf+ef^2 + f^2 + e^3 + e^2+e}{{a-e}^2 + {b-f}^2}$$
+$$ d = \frac{a^2b - 2eab - af + b^3 -2b^2f +bf^2 + e^2b +eb + b -f} {{a-e}^2 + {b-f}^2} - b + f$$
+$$ g = \frac{a^3 -2ea^2 - a^2 + ab^2 -2abf + af^2 + e^2a +ea -a-b^2+bf+e}{{a-e}^2 + {b-f}^2}$$
+$$ h = \frac{a^2b-2eab-af+b^3-2b^2f+e^2b+eb+b-f}{{a-e}^2 + {b-f}^2}$$
+where $a\neq e$ and $b \neq f$
+
+For example, $n = (1+i)(a+bi)$ and $n+1 = (2 + i)(c+di)$ gives us the equations $$ a - b = 2c - d -1$$ $$a + b = c + 2d$$ and since a prime, $\pi$,  $g\sigma(\pi) = \pi + 1$ forces the equations $$2a - b + 2 = 3c - -d + 3$$ $$a + 1 - b = c + i - d$$ 
+\\
+
+\section{Other Fields}
+Defining the sigma function for some other fields is also possible, similar to the Gaussian case. In the ring of integers in the field of $Q(\sqrt{d})$, then the discriminant D will be
+$$
+D =
+\begin{cases}
+d, & \text{if }d\equiv 1\pmod {4} \\
+4d, & \text{ otherwise}
+\end{cases}
+$$
+
+
+Next will be to find the units and primes in these cases. The units can be found by solving for the integer solution a, b to the problem $a^2 + db^2 = 1$, and are used to rotate the quadrants holding the definition of the Divisor Function, $\sigma(n)>n$. As for the primes, solved by finding the quadratic residues, r, for an integer less than D, n, to the congruence $n^2 \equiv r \pmod{D}$ by adding all of the residues up one can find the primes in the field that can be ramified and split into smaller primes; the new primes in this new field. To ensure a number to be prime the norm or $N(a + \sqrt{d}b) = a^2 + db^2$ will as well be prime. 
+
+For example, in the field $Q(\sqrt{-2})$ we would have the units ,$u$, either 1 or -1 because $a^2 + 2b^2 = 1$ for only a = 1 or -1. Then we can find the quadratic residues of $1, 2, 3, 4, 5, 6, 7 \pmod{8}$ since 4d = -8. 
+$$1^1 \equiv 1\pmod{8}$$
+$$2^2 \equiv 4\pmod{8}$$
+$$3^2 \equiv 1\pmod{8}$$
+$$4^2 \equiv 0\pmod{8}$$
+$$5^2 \equiv 1\pmod{8}$$
+$$6^2 \equiv 4\pmod{8}$$
+$$7^2 \equiv 1\pmod{8}$$
+\\
+We have for the integer a able to be the residues 0,1,4 and b able to be the residues 0,2 (b has to be twice times a since d = -2). So we can write the number 0,1,2,3,4,6 as a linear combination leaving out 5 and 7. Therefore, the primes that are 5 or 7 (mod 8) can be ramified into smaller primes. 
+
+\section{Properties of Divisor Function}
+Some theorems that can be derived from the Divisor function of both Integers and Gaussian Integers:
+\\
+
+\thm
+If and only if $\sigma(n)$ is odd, then n is a perfect square or a perfect square times a power of 2.
+\\
+\\
+\noindent
+Proof:
+\\
+$\sigma(n)$ can be split into a plethora of odd primes and 2. Let $p_1,p_2,.., p_N$ be primes. Then for $n = (p_1)(p_2)...(p_N)$
+$$\sigma(n) = \sigma(p_1)\sigma(p_2)...\sigma(p_N)$$
+Where the only even prime is 2. Taking the sum of the divisors we add the powers of the primes, so we have $$\sigma({p_1}^{\alpha}) = 1 + p_1 + {p_1}^2 + {p_1}^3 + {p_1}^{\alpha}$$
+since the only way to product an odd integer is by two odd integers $${odd}^2 = odd$$ There must be an odd number of odd integers. Thus $\alpha$ must be even, otherwise there would be a contradiction; even number of odds.
+\\
+Now for the prime 2, $$\sigma(2^\beta) = 1 + 2 + 2^2 + 2^3 + ... + 2^\beta$$
+since $even + even = even$, $odd + even = odd$ then $\sigma(2^\beta)$ will always be odd. Thus a square or a power of 2 times a prime will always be odd.
+
+\thm
+If and only if $g\sigma(n)$ is odd and n is an gaussian integer, then n is a perfect square or a perfect square times a power of (1+i).
+\\
+\\
+\noindent
+Proof:
+\\
+Same as above holds, except for a gaussian integer n = a + bi to be even a + b must equal an even integer and for n to be odd a + b must equal an odd integer. 
+
+\thm
+If p $\mid$ n then p $\nmid$ n+1 whether p be a Gaussian Prime for $g\sigma(n)$ or Integer Prime for $\sigma(n)$.
+\\
+\\
+\noindent
+Proof:
+\\
+We have n and n+1, when we take the gcd(n, n+1)= 1 because it can be written in a linear combination to equal one, namely $(n + 1) + (-1)(n) = 1$, therefore n and n+1 are co-prime and cannot have any common primes. 
+
+\thm
+If there exists an integer n and a prime p such that $\sigma(n) = p$, then either there is a positive integer k where $n = 2^k$ or a prime q in which $n = q^2$.
+\\
+\\
+\noindent
+Proof:
+\\
+If $\sigma(n)$ is odd then n is either a power of 2 or a power of two times a prime. If n is a power of 2 times a prime then it is the product of two numbers and cannot be a prime unless the power is 0. Thus, n has to be either a power of two or a prime squared.
+
+\end{document}  
+
+
+
+
+
+
+

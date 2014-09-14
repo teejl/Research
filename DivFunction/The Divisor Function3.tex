@@ -1,0 +1,54 @@
+\documentclass[12pt]{amsart} 
+\usepackage{geometry}                		
+\geometry{letterpaper}                   	
+\usepackage{graphicx}				
+\newtheorem{thm}{Theorem}
+\newtheorem{cor}{Corollary}
+\usepackage{amssymb}
+\usepackage{dsfont}
+
+\title{Equal Consecutive Divisor Functions}
+\author{Thomas Lockwood}
+%\date{}							
+
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+
+\section{The Integers}
+Are there infinitely many equal consecutive Divisor Functions? This problem is also known as the Erdos-Sierpenski problem. The Divisor Function, $\sigma(n)$, is the sum of all the positive divisors of an integer $n$ with the prime factorization $n = ({p_1}^{m_1})({p_2}^{m_2})...({p_N}^{m_N})$ $$\sigma(n) = \sum_{d|{n}}d = (\frac{{p_1}^{m_1+1} - 1} {{p_1} - 1}) (\frac{{p_2}^{m_2+1} - 1}{{p_2} - 1})... (\frac{{p_N}^{m_N+1} - 1}{{p_N} - 1}) $$ For example, $$\sigma(14) = 1 + 2 + 7 + 14 = 24$$
+
+We want the number of solutions to $\sigma(n) = \sigma(n+1)$. Some solutions (up to 10,000):
+\\
+$$\sigma(206) = \sigma(207) = 312$$
+$$\sigma(957) = \sigma(958) = 1440$$
+$$\sigma(1334) = \sigma(1335) = 2160$$
+$$\sigma(1364) = \sigma(1365) = 2688$$
+$$\sigma(1634) = \sigma(1635) = 2688$$
+$$\sigma(2685) = \sigma(2686) = 4320$$
+$$\sigma(2974) = \sigma(2975) = 4464$$
+$$\sigma(4364) = \sigma(4365) = 7644$$
+Guy and Shanks found a pattern in the form $$n = 2p,\; \; n + 1 = 3^{m}q$$ when $q$ and $p$ are both prime for $$q = 3^{m+1} - 4, \; \; p=\frac{3^{m}q-1} {2}$$ Solutions for $m = 1, 2, 4$ yields the results $n = 14, 206, 19358$
+And another in the form $$n = 3^{m}q, \; \; n+1 = 2p$$ when $q$ and $p$ are both prime for $$q = 3^{m+1} - 10, \; \; p = \frac{3^{m}q + 1} {2}$$  solutions when $m = 4$ and $5$. However this does not solve the problem since it has only produced about 3 solutions for both forms.
+
+\section{The Gaussian Integers}
+Gaussian Integers (complex integers), also known as the Integer Ring $\mathds{Z}[\sqrt{-1}]$, can also be defined for the Divisor Function. Spira defined function the Divisor Function for Gaussian Integers very well. In his definition he demonstrated that we need to use the first quadrant of the form of the complex numbers, excluding the imaginary axis. 
+
+Furthermore, using Guy and Shanks method with Gaussian integers we have sigma each in the form of two distinct primes for both n and n +1. Which gives us $$g\sigma(n) = g\sigma(n+1)$$
+and let $$n = (a + bi)(c+di), \; \; \; n+1 = (e + fi)(g + hi)$$ so $$ g\sigma(n) = (ac -bd + 1) + i(cb + da) , \; \; \; g\sigma(n+1) = (eg - fh + 1) + i(fg + eh)$$ and we have the four functions $$ac -bd = eg -fh + 1$$ $$bc + ad = fg + eh$$ $$ac - bd + 1 = eg - fh + 1$$ $$cb + da = fg + eh$$
+
+Therefore our solutions are: 
+$$c = \frac{ea^2 - 2e^2a -ea -a + eb^2 -bf -2ebf + ef^2 + f^2 + e^3 + e^2 + e} {a-e^2+b-f^2}$$ 
+$$d = \frac{a^2b - 2eab -af +b^3 -2b^2f + bf^2 + e^2b + eb + b - f}{a-e^2 + b -f^2} -b + f$$ 
+$$g = \frac{a^3 -2ea^2 - a^2 + ab^2 - 2abf + af^2 + e^2a + ea - a -b^2 + bf + e} {a-e^2+b-f^2}$$ $$h = \frac{a^2b - 2eab -af + b^3 - 2b^2f + e^2b + eb +b -f} {a-e^2+b-f^2}$$
+
+
+\end{document}  
+
+
+
+
+
+
