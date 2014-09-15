@@ -42,7 +42,7 @@ Here we will put our graphs and calculate things.
 Formula for $S$ and $S`$:
 $$ S = P_3 - P_1, \; \; \; S` = P_3 - P_2$$
 Our results gives us
-$$ P_1 = 1.4\text{mm}\pm.1\text{mm},\;\;\; P_2 = 6.4\text{mm}\pm.1\text{mm},\;\;\; P_3 = 18.9\text{mm}\pm.1\text{mm} $$
+$$ P_1 = 1.4\text{mm},\;\;\; P_2 = 6.4\text{mm},\;\;\; P_3 = 18.9\text{mm} $$
 $$ S = 18.9 - 1.4 = 17.5\text{mm}, \; \; \; S` = 18.9 - 6.4 = 12.5\text{mm} $$  
 Forumula for Index of Refraction:
 $$ n = \frac{S}{S`} = \frac{17.5}{12.5} = 1.4\text{mm} $$
