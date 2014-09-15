@@ -38,7 +38,6 @@ Gaussian Integers (complex integers), also known as the Integer Ring $\mathds{Z}
 
 Furthermore, using Guy and Shanks method with Gaussian Integers we have $g\sigma$ each in the form of two distinct primes for both n and n + 1. Which gives us $$g\sigma(n) = g\sigma(n+1)$$ If we know two of the primes between n and n+1 we can solve for the other 2. Suppose we know a,b,e,f.
 Let $$n = (a + bi)(c+di), \; \; \; n+1 = (e + fi)(g + hi)$$ and by $g\sigma$ of primes  $$ g\sigma(n) = (a + bi + 1)(c + di + 1) = (ac + a + c -bd) + i(ad + d + bc + b)$$ $$ g\sigma(n+1) = (e + fi + 1)(g + hi + 1) = (eg + e + g - fh) + i(eh + fg + h + f)$$ and we have the four functions $$ac -bd = eg -fh - 1$$ $$bc + ad = fg + eh$$ $$ac + a + c -bd = eg + e + g - fh$$ $$ad + d + bc + b = eh + fg + h + f$$
-
 Thus our solutions: 
 $$c = \frac{ea^2 - 2e^2a -ea -a + eb^2 -bf -2ebf + ef^2 + f^2 + e^3 + e^2 + e} {a-e^2+b-f^2}$$ 
 $$d = \frac{a^2b - 2eab -af +b^3 -2b^2f + bf^2 + e^2b + eb + b - f}{a-e^2 + b -f^2} -b + f$$ 
@@ -58,6 +57,17 @@ $$g\sigma(90 + 245i) = -320 + 480i  = g\sigma(91 + 245i))$$
 \section{Equal Sigma Functions}
 For $g\sigma(n) = g\sigma(n+k+qi)$ can also be solved using the previous formula. It is easy to show using the previous equations. 
 $$n = (a + bi)(c+di), \; \; \; n+k+qi = (e + fi)(g + hi)$$ and by $g\sigma$ of primes $$ g\sigma(n) = (a + bi + 1)(c + di + 1) = (ac + a + c -bd) + i(ad + d + bc + b)$$ $$ g\sigma(n+k+qi) = (e + fi + 1)(g + hi + 1) = (eg + e + g - fh) + i(eh + fg + h + f)$$ and we have the four functions $$ac -bd = eg -fh - k$$ $$bc + ad = fg + eh - q$$ $$ac + a + c -bd = eg + e + g - fh$$ $$ad + d + bc + b = eh + fg + h + f$$
+Giving the solutions:
+
+$c = \frac{-ea^2 -afq + eak + ak + 2e^2a -eb^2 + bfk + 2ebf + bq + ebq -f^2k -ef^2 -fq-e^2k -ek -e^3}{a^2-2ea+b^2-2bf+f^2+e^2}$
+
+$d = \frac{-a^2b+a^2q+2eab+afk+aq-eaq-b^3+2b^2f+b^2q-bf^2-bfq-ebk-bk-e^2k+fk-ea}{a^2-2ea+b^2-2bf+f^2+e^2} +b -f -q$
+
+$g =\frac{-a^3 + a^2k + 2ea^2-ab^2+2abf-af^2-afq-eak+ak-e^2a+b^2k-bfk+bq+ebq-fq-ek}{a^2-2ea+b^2-2bf+f^2+e^2}$
+
+$h = \frac{-a^2b+a^2q+2eab+afk+aq-eaq-b^3+2b^2f+b^2q-bf^2-bfq-ebk-bk-e^2b+fk-ea}{a^2-2ea+b^2-2bf+f^2+e^2} $
+\\
+\\
 A few solutions for $g\sigma(n) = g\sigma(n+i)$
 \\
 $$g\sigma(15 + 9i) = 40i = g\sigma(15 + 10i)$$
