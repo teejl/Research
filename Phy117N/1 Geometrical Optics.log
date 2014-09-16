@@ -1,20 +1,14 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.17)  14 SEP 2014 20:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.11)  16 SEP 2014 13:39
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **"1 Geometrical Optics.tex"
 (./1 Geometrical Optics.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/article.cls
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -29,20 +23,23 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
-Package: geometry 2008/12/21 v4.2 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
 \Gm@cntv=\count88
@@ -51,40 +48,50 @@ Package ifvtex Info: VTeX not detected.
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
 \Gread@gobject=\count90
 ))
-\Gin@req@height=\dimen107
-\Gin@req@width=\dimen108
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
 )
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (./1 Geometrical Optics.aux)
 \openout1 = `"1 Geometrical Optics.aux"'.
@@ -102,71 +109,191 @@ LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 
-*geometry auto-detecting driver*
-*geometry detected driver: pdftex*
--------------------- Geometry parameters
-paper: letterpaper
-landscape: --
-twocolumn: --
-twoside: --
-asymmetric: --
-h-parts: 92.14519pt, 0.7\paperwidth , 92.14519pt (default)
-v-parts: 95.39737pt, 0.7\paperheight , 143.09605pt (default)
-hmarginratio: 1:1
-vmarginratio: 2:3
-lines: --
-heightrounded: --
-bindingoffset: 0.0pt
-truedimen: --
-includehead: --
-includefoot: --
-includemp: --
-driver: pdftex
--------------------- Page layout dimensions and switches
-\paperwidth  614.295pt
-\paperheight 794.96999pt
-\textwidth  430.00462pt
-\textheight 556.47656pt
-\oddsidemargin  19.8752pt
-\evensidemargin 19.8752pt
-\topmargin  -13.87262pt
-\headheight 12.0pt
-\headsep    25.0pt
-\footskip   30.0pt
-\marginparwidth 44.0pt
-\marginparsep   10.0pt
-\columnsep  10.0pt
-\skip\footins  10.8pt plus 4.0pt minus 2.0pt
-\hoffset 0.0pt
-\voffset 0.0pt
-\mag 1000
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(1in=72.27pt, 1cm=28.45pt)
------------------------
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
-\scratchdimen=\dimen109
+\scratchdimen=\dimen113
 \scratchbox=\box26
 \nofMPsegments=\count92
 \nofMParguments=\count93
 \everyMPshowfont=\toks17
 \MPscratchCnt=\count94
-\MPscratchDim=\dimen110
+\MPscratchDim=\dimen114
 \MPnumerator=\count95
+\makeMPintoPDFobject=\count96
 \everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    Try loading font information for U+msa on input line 14.
- (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<../../Documents/MATLAB/Air2Lucite.jpg, id=1, 607.26875pt x 341.275pt>
+File: ../../Documents/MATLAB/Air2Lucite.jpg Graphic file (type jpg)
+
+<use ../../Documents/MATLAB/Air2Lucite.jpg>
+Package pdftex.def Info: ../../Documents/MATLAB/Air2Lucite.jpg used on input li
+ne 33.
+(pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
+
+<../../Documents/MATLAB/Air2Lucite2.jpg, id=2, 607.26875pt x 341.275pt>
+File: ../../Documents/MATLAB/Air2Lucite2.jpg Graphic file (type jpg)
+
+<use ../../Documents/MATLAB/Air2Lucite2.jpg>
+Package pdftex.def Info: ../../Documents/MATLAB/Air2Lucite2.jpg used on input l
+ine 35.
+(pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
+
+<../../Documents/MATLAB/Air2Lucite3.jpg, id=3, 607.26875pt x 341.275pt>
+File: ../../Documents/MATLAB/Air2Lucite3.jpg Graphic file (type jpg)
+
+<use ../../Documents/MATLAB/Air2Lucite3.jpg>
+Package pdftex.def Info: ../../Documents/MATLAB/Air2Lucite3.jpg used on input l
+ine 37.
+(pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
+
+<../../Documents/MATLAB/Lucite2Air.jpg, id=4, 607.26875pt x 341.275pt>
+File: ../../Documents/MATLAB/Lucite2Air.jpg Graphic file (type jpg)
+
+<use ../../Documents/MATLAB/Lucite2Air.jpg>
+Package pdftex.def Info: ../../Documents/MATLAB/Lucite2Air.jpg used on input li
+ne 39.
+(pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
+
+<../../Documents/MATLAB/Lucite2Air2.jpg, id=5, 607.26875pt x 341.275pt>
+File: ../../Documents/MATLAB/Lucite2Air2.jpg Graphic file (type jpg)
+
+<use ../../Documents/MATLAB/Lucite2Air2.jpg>
+Package pdftex.def Info: ../../Documents/MATLAB/Lucite2Air2.jpg used on input l
+ine 41.
+(pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
+
+<../../Documents/MATLAB/Lucite2Air3.jpg, id=6, 607.26875pt x 341.275pt>
+File: ../../Documents/MATLAB/Lucite2Air3.jpg Graphic file (type jpg)
+
+<use ../../Documents/MATLAB/Lucite2Air3.jpg>
+Package pdftex.def Info: ../../Documents/MATLAB/Lucite2Air3.jpg used on input l
+ine 43.
+(pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
+
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
+[] 
+ []
+
+
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
+[] 
+ []
+
+
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
+[] 
+ []
+
+
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
+[] 
+ []
+
+
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
+[] 
+ []
+
+
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
+[] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <../../Documents/MATLAB
+/Air2Lucite.jpg> <../../Documents/MATLAB/Air2Lucite2.jpg>] [3 <../../Documents/
+MATLAB/Air2Lucite3.jpg> <../../Documents/MATLAB/Lucite2Air.jpg>]
 ! Undefined control sequence.
-l.45 $$ P_1 = 1.4\text
+l.49 $$ P_1 = 1.4\text
                       {mm}\pm.1\text{mm},\;\;\; P_2 = 6.4\text{mm}\pm.1\text...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -175,7 +302,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 $$ P_1 = 1.4\text{mm}\pm.1\text
+l.49 $$ P_1 = 1.4\text{mm}\pm.1\text
                                     {mm},\;\;\; P_2 = 6.4\text{mm}\pm.1\text...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -184,7 +311,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 ...xt{mm}\pm.1\text{mm},\;\;\; P_2 = 6.4\text
+l.49 ...xt{mm}\pm.1\text{mm},\;\;\; P_2 = 6.4\text
                                                   {mm}\pm.1\text{mm},\;\;\; ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -193,7 +320,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 ...xt{mm},\;\;\; P_2 = 6.4\text{mm}\pm.1\text
+l.49 ...xt{mm},\;\;\; P_2 = 6.4\text{mm}\pm.1\text
                                                   {mm},\;\;\; P_3 = 18.9\tex...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -202,7 +329,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 ...t{mm}\pm.1\text{mm},\;\;\; P_3 = 18.9\text
+l.49 ...t{mm}\pm.1\text{mm},\;\;\; P_3 = 18.9\text
                                                   {mm}\pm.1\text{mm} $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -211,7 +338,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 ...t{mm},\;\;\; P_3 = 18.9\text{mm}\pm.1\text
+l.49 ...t{mm},\;\;\; P_3 = 18.9\text{mm}\pm.1\text
                                                   {mm} $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -220,7 +347,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.46 $$ S = 18.9 - 1.4 = 17.5\text
+l.50 $$ S = 18.9 - 1.4 = 17.5\text
                                   {mm}, \; \; \; S` = 18.9 - 6.4 = 12.5\text...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -229,7 +356,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.46 ...{mm}, \; \; \; S` = 18.9 - 6.4 = 12.5\text
+l.50 ...{mm}, \; \; \; S` = 18.9 - 6.4 = 12.5\text
                                                   {mm} $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -237,20 +364,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.48 ...frac{S}{S`} = \frac{17.5}{12.5} = 1.4\text
-                                                  {mm} $$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[4 <../../Documents/MATLAB/Lucite2Air2.jpg> <../../Documents/MATLAB/Lucite2Air3
+.jpg>]
+<../../Documents/MATLAB/ColoredLight.jpg, id=29, 607.26875pt x 341.275pt>
+File: ../../Documents/MATLAB/ColoredLight.jpg Graphic file (type jpg)
 
-[1
+<use ../../Documents/MATLAB/ColoredLight.jpg>
+Package pdftex.def Info: ../../Documents/MATLAB/ColoredLight.jpg used on input 
+line 58.
+(pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 58--59
+[] 
+ []
+
 ! Undefined control sequence.
-l.59 $$ x = 1\text
+l.66 $$ x = 1\text
                   {cm} \pm .1\text{cm}, \; \; \; b = 39.2\text{cm} \pm .1\te...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -259,7 +388,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.59 $$ x = 1\text{cm} \pm .1\text
+l.66 $$ x = 1\text{cm} \pm .1\text
                                   {cm}, \; \; \; b = 39.2\text{cm} \pm .1\te...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -268,7 +397,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.59 ...m} \pm .1\text{cm}, \; \; \; b = 39.2\text
+l.66 ...m} \pm .1\text{cm}, \; \; \; b = 39.2\text
                                                   {cm} \pm .1\text{cm}, \; \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -277,7 +406,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.59 ...m}, \; \; \; b = 39.2\text{cm} \pm .1\text
+l.66 ...m}, \; \; \; b = 39.2\text{cm} \pm .1\text
                                                   {cm}, \; \; \; P = 100(1)/...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -285,8 +414,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[5 <../../Documents/MATLAB/ColoredLight.jpg>]
 ! Undefined control sequence.
-l.68 $$ P = 6^{\Delta}, \; \; \; b = 44.8\text
+l.75 $$ P = 6^{\Delta}, \; \; \; b = 44.8\text
                                               {cm}, \; \; \; P = 100(44.8)/1...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -295,7 +425,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.68 ...}, \; \; \; P = 100(44.8)/100 = 2.688\text
+l.75 ...}, \; \; \; P = 100(44.8)/100 = 2.688\text
                                                   {cm}$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -303,27 +433,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2] [3] (./1 Geometrical Optics.aux) ) 
+[6] [7] (./1 Geometrical Optics.aux) ) 
 Here is how much of TeX's memory you used:
- 1597 strings out of 493848
- 20565 string characters out of 1152823
- 71600 words of memory out of 3000000
- 4890 multiletter control sequences out of 15000+50000
- 12099 words of font info for 47 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 25i,6n,24p,255b,190s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb>
-Output written on "1 Geometrical Optics.pdf" (3 pages, 111941 bytes).
+ 2301 strings out of 493304
+ 32980 string characters out of 6139871
+ 93970 words of memory out of 5000000
+ 5734 multiletter control sequences out of 15000+600000
+ 12099 words of font info for 47 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 37i,6n,26p,255b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "1 Geometrical Optics.pdf" (7 pages, 246077 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
