@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.11)  16 SEP 2014 13:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.11)  16 SEP 2014 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,7 +215,7 @@ File: ../../Documents/MATLAB/Air2Lucite.jpg Graphic file (type jpg)
 
 <use ../../Documents/MATLAB/Air2Lucite.jpg>
 Package pdftex.def Info: ../../Documents/MATLAB/Air2Lucite.jpg used on input li
-ne 33.
+ne 32.
 (pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
 
 <../../Documents/MATLAB/Air2Lucite2.jpg, id=2, 607.26875pt x 341.275pt>
@@ -223,7 +223,7 @@ File: ../../Documents/MATLAB/Air2Lucite2.jpg Graphic file (type jpg)
 
 <use ../../Documents/MATLAB/Air2Lucite2.jpg>
 Package pdftex.def Info: ../../Documents/MATLAB/Air2Lucite2.jpg used on input l
-ine 35.
+ine 33.
 (pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
 
 <../../Documents/MATLAB/Air2Lucite3.jpg, id=3, 607.26875pt x 341.275pt>
@@ -231,7 +231,7 @@ File: ../../Documents/MATLAB/Air2Lucite3.jpg Graphic file (type jpg)
 
 <use ../../Documents/MATLAB/Air2Lucite3.jpg>
 Package pdftex.def Info: ../../Documents/MATLAB/Air2Lucite3.jpg used on input l
-ine 37.
+ine 34.
 (pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
 
 <../../Documents/MATLAB/Lucite2Air.jpg, id=4, 607.26875pt x 341.275pt>
@@ -239,7 +239,7 @@ File: ../../Documents/MATLAB/Lucite2Air.jpg Graphic file (type jpg)
 
 <use ../../Documents/MATLAB/Lucite2Air.jpg>
 Package pdftex.def Info: ../../Documents/MATLAB/Lucite2Air.jpg used on input li
-ne 39.
+ne 35.
 (pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
 
 <../../Documents/MATLAB/Lucite2Air2.jpg, id=5, 607.26875pt x 341.275pt>
@@ -247,7 +247,7 @@ File: ../../Documents/MATLAB/Lucite2Air2.jpg Graphic file (type jpg)
 
 <use ../../Documents/MATLAB/Lucite2Air2.jpg>
 Package pdftex.def Info: ../../Documents/MATLAB/Lucite2Air2.jpg used on input l
-ine 41.
+ine 36.
 (pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
 
 <../../Documents/MATLAB/Lucite2Air3.jpg, id=6, 607.26875pt x 341.275pt>
@@ -255,35 +255,35 @@ File: ../../Documents/MATLAB/Lucite2Air3.jpg Graphic file (type jpg)
 
 <use ../../Documents/MATLAB/Lucite2Air3.jpg>
 Package pdftex.def Info: ../../Documents/MATLAB/Lucite2Air3.jpg used on input l
-ine 43.
+ine 37.
 (pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
 
-Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
-[] 
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 32--38
+[]
  []
 
 
-Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
-[] 
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 32--38
+[]
  []
 
 
-Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
-[] 
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 32--38
+[]
  []
 
 
-Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
-[] 
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 32--38
+[]
  []
 
 
-Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
-[] 
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 32--38
+[]
  []
 
 
-Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 32--38
 [] 
  []
 
@@ -291,149 +291,22 @@ Overfull \hbox (23.46478pt too wide) in paragraph at lines 33--44
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <../../Documents/MATLAB
 /Air2Lucite.jpg> <../../Documents/MATLAB/Air2Lucite2.jpg>] [3 <../../Documents/
-MATLAB/Air2Lucite3.jpg> <../../Documents/MATLAB/Lucite2Air.jpg>]
-! Undefined control sequence.
-l.49 $$ P_1 = 1.4\text
-                      {mm}\pm.1\text{mm},\;\;\; P_2 = 6.4\text{mm}\pm.1\text...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.49 $$ P_1 = 1.4\text{mm}\pm.1\text
-                                    {mm},\;\;\; P_2 = 6.4\text{mm}\pm.1\text...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.49 ...xt{mm}\pm.1\text{mm},\;\;\; P_2 = 6.4\text
-                                                  {mm}\pm.1\text{mm},\;\;\; ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.49 ...xt{mm},\;\;\; P_2 = 6.4\text{mm}\pm.1\text
-                                                  {mm},\;\;\; P_3 = 18.9\tex...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.49 ...t{mm}\pm.1\text{mm},\;\;\; P_3 = 18.9\text
-                                                  {mm}\pm.1\text{mm} $$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.49 ...t{mm},\;\;\; P_3 = 18.9\text{mm}\pm.1\text
-                                                  {mm} $$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.50 $$ S = 18.9 - 1.4 = 17.5\text
-                                  {mm}, \; \; \; S` = 18.9 - 6.4 = 12.5\text...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.50 ...{mm}, \; \; \; S` = 18.9 - 6.4 = 12.5\text
-                                                  {mm} $$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[4 <../../Documents/MATLAB/Lucite2Air2.jpg> <../../Documents/MATLAB/Lucite2Air3
-.jpg>]
+MATLAB/Air2Lucite3.jpg> <../../Documents/MATLAB/Lucite2Air.jpg>] [4 <../../Docu
+ments/MATLAB/Lucite2Air2.jpg> <../../Documents/MATLAB/Lucite2Air3.jpg>]
 <../../Documents/MATLAB/ColoredLight.jpg, id=29, 607.26875pt x 341.275pt>
 File: ../../Documents/MATLAB/ColoredLight.jpg Graphic file (type jpg)
 
 <use ../../Documents/MATLAB/ColoredLight.jpg>
 Package pdftex.def Info: ../../Documents/MATLAB/ColoredLight.jpg used on input 
-line 58.
+line 51.
 (pdftex.def)             Requested size: 394.72002pt x 221.82611pt.
 
-Overfull \hbox (23.46478pt too wide) in paragraph at lines 58--59
+Overfull \hbox (23.46478pt too wide) in paragraph at lines 51--52
 [] 
  []
 
-! Undefined control sequence.
-l.66 $$ x = 1\text
-                  {cm} \pm .1\text{cm}, \; \; \; b = 39.2\text{cm} \pm .1\te...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.66 $$ x = 1\text{cm} \pm .1\text
-                                  {cm}, \; \; \; b = 39.2\text{cm} \pm .1\te...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.66 ...m} \pm .1\text{cm}, \; \; \; b = 39.2\text
-                                                  {cm} \pm .1\text{cm}, \; \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.66 ...m}, \; \; \; b = 39.2\text{cm} \pm .1\text
-                                                  {cm}, \; \; \; P = 100(1)/...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[5 <../../Documents/MATLAB/ColoredLight.jpg>]
-! Undefined control sequence.
-l.75 $$ P = 6^{\Delta}, \; \; \; b = 44.8\text
-                                              {cm}, \; \; \; P = 100(44.8)/1...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.75 ...}, \; \; \; P = 100(44.8)/100 = 2.688\text
-                                                  {cm}$$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[6] [7] (./1 Geometrical Optics.aux) ) 
+[5 <../../Documents/MATLAB/ColoredLight.jpg>] [6] [7]
+(./1 Geometrical Optics.aux) ) 
 Here is how much of TeX's memory you used:
  2301 strings out of 493304
  32980 string characters out of 6139871
@@ -442,15 +315,15 @@ Here is how much of TeX's memory you used:
  12099 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,6n,26p,255b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on "1 Geometrical Optics.pdf" (7 pages, 246077 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
