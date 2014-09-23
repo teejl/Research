@@ -7,7 +7,7 @@
 \usepackage{amssymb}
 \usepackage{dsfont}
 
-\title{Equal Consecutive Divisor Functions}
+\title{Erdos Sierpenski Problem}
 \author{Thomas Lockwood}
 %\date{}							
 
@@ -16,9 +16,12 @@
 \maketitle
 \thispagestyle{empty}
 
+\begin{abstract}
+The Divisor Function of an integer n, that will be denoted as $\sigma(n)$ is adding up the sum of positive divisors that divide n. The Erdos-Seirpenski Problem goes: Are there infinitely many solutions to $\sigma(n) = \sigma(n+1)$? Erdos claimed that there were, however it has yet to be proven. Spira defined the Divisor Function for complex numbers, denoted for complex integer n as $g\sigma(n)$. Combining the two, we have the problem: Are there infinitely many solutions to $g\sigma(n) = g\sigma(n+1)$?
+\end{abstract}
 
 \section{The Integers}
-Are there infinitely many equal consecutive Divisor Functions? This problem is also known as the Erdos-Sierpenski problem. The Divisor Function, $\sigma(n)$, is the sum of all the positive divisors of an integer $n$ with the prime factorization $n = ({p_1}^{m_1})({p_2}^{m_2})...({p_N}^{m_N})$ $$\sigma(n) = \sum_{d|{n}}d = (\frac{{p_1}^{m_1+1} - 1} {{p_1} - 1}) (\frac{{p_2}^{m_2+1} - 1}{{p_2} - 1})... (\frac{{p_N}^{m_N+1} - 1}{{p_N} - 1}) $$ For example, $$\sigma(14) = 1 + 2 + 7 + 14 = 24$$
+The Divisor Function, $\sigma(n)$, is the sum of all the positive divisors of an integer $n$ with the prime factorization $n = ({p_1}^{m_1})({p_2}^{m_2})...({p_N}^{m_N})$ $$\sigma(n) = \sum_{d|{n}}d = (\frac{{p_1}^{m_1+1} - 1} {{p_1} - 1}) (\frac{{p_2}^{m_2+1} - 1}{{p_2} - 1})... (\frac{{p_N}^{m_N+1} - 1}{{p_N} - 1}) $$ For example, $$\sigma(14) = 1 + 2 + 7 + 14 = 24$$
 
 We want the solutions to $\sigma(n) = \sigma(n+1)$. Some solutions (up to 10,000):
 \\
@@ -34,10 +37,22 @@ Guy and Shanks found a pattern in the form $$n = 2p,\; \; n + 1 = 3^{m}q$$ when 
 And another in the form $$n = 3^{m}q, \; \; n+1 = 2p$$ when $q$ and $p$ are both prime for $$q = 3^{m+1} - 10, \; \; p = \frac{3^{m}q + 1} {2}$$  solutions when $m = 4$ and $5$. However this does not solve the problem since it has only produced 3 and 2 solutions respectively.
 
 \section{The Gaussian Integers}
-Gaussian Integers (complex integers), also known as the Integer Ring $\mathds{Z}[\sqrt{-1}]$, can also be defined for the Divisor Function. Spira defined function the Divisor Function for Gaussian Integers very well, denoted $g\sigma$. In his definition he demonstrated that we need to use the first quadrant of the form of the complex numbers, excluding the imaginary axis. After rotated to the first quadrant it is the same as the formula above, except for Gaussian Integers for all the variables instead regular integers.
+Gaussian Integers (complex integers), also known as the Integer Ring $\mathds{Z}[\sqrt{-1}]$, can be defined as the Complex Divisor Function. Spira defined the Complex Divisor Function for Gaussian Integers very well, denoted $g\sigma$. In his definition he demonstrated that we need to use the first quadrant of the form of the complex numbers, excluding the imaginary axis. After rotated to the first quadrant it is the same as the formula above, except for Gaussian Integers for all the variables instead regular integers.
 
-Furthermore, using Guy and Shanks method with Gaussian Integers we have $g\sigma$ each in the form of two distinct primes for both n and n + 1. Which gives us $$g\sigma(n) = g\sigma(n+1)$$ If we know two of the primes between n and n+1 we can solve for the other 2. Suppose we know a,b,e,f.
-Let $$n = (a + bi)(c+di), \; \; \; n+1 = (e + fi)(g + hi)$$ and by $g\sigma$ of primes  $$ g\sigma(n) = (a + bi + 1)(c + di + 1) = (ac + a + c -bd) + i(ad + d + bc + b)$$ $$ g\sigma(n+1) = (e + fi + 1)(g + hi + 1) = (eg + e + g - fh) + i(eh + fg + h + f)$$ and we have the four functions $$ac -bd = eg -fh - 1$$ $$bc + ad = fg + eh$$ $$ac + a + c -bd = eg + e + g - fh$$ $$ad + d + bc + b = eh + fg + h + f$$
+For example, if we were trying to find $g\sigma(2)$ we would have the prime factorization of $2 = (1+i)(1-i)$. We need all the primes in the first quadrant, so we can multiply $(1+i)$ by $i$ and we get $2 = i(1+i)(1+i)$. Adding up the primes we get $g\sigma(2) = g\sigma((1+i)^2) = 1 + (1+i) + (1+i)^2 = 2 + 3i$
+
+\section{Gaussian Integers Containing a Single Prime}
+Let $n$ be prime, and $n+1$ be the product of two distinct primes $p$ and $q$, then $n = (n + 1) - 1 = pq - 1$. If $p$ and $q$ are of odd parody, then $n = (1+i)$. This would force $pq = 2+i$, a contradiction since $2+i$ is prime and can't be the product of two primes. So either $p$ or $q$ must be of even parody, namely $(1+i)$, WLOG let $p = 1 + i$ and $q=a + bi$, then $n = (1+i)q - 1$. Assume $g\sigma(n) = n+1 = g\sigma(n+1) = \gsigma(1+i) = (2+i)(a + bi +1)$, then we have the equations: $$1 = 2a + 2$$ and $$i(1) = i(a + 2b + 1)$$By Spira's definition of Complex Divisor Function we are unable to have negative numbers in the domain, therefore leads to a contradiction, so there exists no solutions in this form.
+
+This time let $n+1$ be prime, and $n$ be the product of two distinct primes $p$ and $q$, then $n = (n+1) -1 = pq$. For $n+1$ to be of even parody, then $n = i$, and $i$ is not the product of two primes. That leaves $n$ to be of even parody, so either $p$ or $q$ is $1+i$. WLOG let $p=1+i$, $q=a+bi$, and $n = c + di$, then $(1+i)(a+bi) = (c + di+1) - 1 = c + di$. Assume $g\sigma((1+i)(a+bi)) = (2+i)(a+1+bi) = g\sigma(n+1) = n + 2 = c + di + 1$, then we have the four equations:
+$$a -b = c$$ $$i(a + b) = i(d)$$ $$2a + 2 -b = c + 1$$ $$i(a + 1 + 2b) = i(d)$$ Taking $d = a + 1 + 2b = a + b$ we get $b = -1$, however the input may not be negative leading to our contradiction. Thus there are no consecutive integers in this form or any form.
+\\
+\section{Gaussian Integers Containing Two primes}
+Furthermore, using Guy and Shanks method with Gaussian Integers we have $n$ and $n+1$ the form of two distinct primes. For the distinct primes $q$ and $p$ (either not equal to $1+i$ or $2+i$), let $n = (1+i)p$ and $n+1 = (2+i)q$. If we let $p = a+bi$ and $q=c+di$, then $n = (n + 1) - 1 = (1+i)(a+bi) = (2+i)(c+di) - 1$.  Assume $g\sigma(n) = g\simga(n+1)$, then $g\sigma(1+i)g\sigma(p) = (2+i)(a + bi + 1) = g\sigma(2+i)g\sigma(q) = (3+i)(c+di+1)$. Splitting the real and imaginary parts we have the four equations: $$ a -b = 2c - d - 1$$ $$(a + b)i = i(c + 2d)$$ $$2a + 2 -b = 3c + 3 - d$$ $$i(a +2b + 1) = i(c + 3d + 1)$$. By the four equations we have: $a = 5$, $b=2$, $c = 3$, and $d = 2$. As you can see $a+bi$ is prime because $5^2 + 2^2 = 29$, and same for $2+3i$ similarly $2^2 + 3^2 = 13$.
+\\
+
+Suppose we know $a,b,e,f$, then we can solve for $c,d,g,h$.
+Let $$n = (a + bi)(c+di), \; \; \; n+1 = (e + fi)(g + hi)$$ and by $g\sigma$ of primes  $$ g\sigma(n) = (a + bi + 1)(c + di + 1) = (ac + a + c -bd) + i(ad + d + bc + b)$$ $$ g\sigma(n+1) = (e + fi + 1)(g + hi + 1) = (eg + e + g - fh) + i(eh + fg + h + f)$$ and we have the four equations $$ac -bd = eg -fh - 1$$ $$bc + ad = fg + eh$$ $$ac + a + c -bd = eg + e + g - fh$$ $$ad + d + bc + b = eh + fg + h + f$$
 Thus our solutions: 
 $$c = \frac{ea^2 - 2e^2a -ea -a + eb^2 -bf -2ebf + ef^2 + f^2 + e^3 + e^2 + e} {a-e^2+b-f^2}$$ 
 $$d = \frac{a^2b - 2eab -af +b^3 -2b^2f + bf^2 + e^2b + eb + b - f}{a-e^2 + b -f^2} -b + f$$ 
@@ -54,9 +69,9 @@ $$g\sigma(40 + 85i) = -100 + 140i  = g\sigma(41 + 85i)$$
 $$g\sigma(90 + 245i) = -320 + 480i  = g\sigma(91 + 245i))$$
 \\
 
-\section{Equal Sigma Functions}
+\section{Non-Consecutive Gaussian Integers Containg Two Primes}
 For $g\sigma(n) = g\sigma(n+k+qi)$ can also be solved using the previous formula. It is easy to show using the previous equations. 
-$$n = (a + bi)(c+di), \; \; \; n+k+qi = (e + fi)(g + hi)$$ and by $g\sigma$ of primes $$ g\sigma(n) = (a + bi + 1)(c + di + 1) = (ac + a + c -bd) + i(ad + d + bc + b)$$ $$ g\sigma(n+k+qi) = (e + fi + 1)(g + hi + 1) = (eg + e + g - fh) + i(eh + fg + h + f)$$ and we have the four functions $$ac -bd = eg -fh - k$$ $$bc + ad = fg + eh - q$$ $$ac + a + c -bd = eg + e + g - fh$$ $$ad + d + bc + b = eh + fg + h + f$$
+$$n = (a + bi)(c+di), \; \; \; n+k+qi = (e + fi)(g + hi)$$ and by $g\sigma$ of primes $$ g\sigma(n) = (a + bi + 1)(c + di + 1) = (ac + a + c -bd) + i(ad + d + bc + b)$$ $$ g\sigma(n+k+qi) = (e + fi + 1)(g + hi + 1) = (eg + e + g - fh) + i(eh + fg + h + f)$$ and we have the four equations $$ac -bd = eg -fh - k$$ $$bc + ad = fg + eh - q$$ $$ac + a + c -bd = eg + e + g - fh$$ $$ad + d + bc + b = eh + fg + h + f$$
 Giving the solutions:
 
 $c = \frac{-ea^2 -afq + eak + ak + 2e^2a -eb^2 + bfk + 2ebf + bq + ebq -f^2k -ef^2 -fq-e^2k -ek -e^3}{a^2-2ea+b^2-2bf+f^2+e^2}$
@@ -83,7 +98,7 @@ $$g\sigma(13 + 4i) = 20i = g\sigma(14 + 5i)$$
 $$g\sigma(84 + 5i) = 8 + 96i  = g\sigma(85 + 6i)$$
 $$g\sigma(90 + 6i) = -160 + 160i  = g\sigma(91 + 7i))$$
 $$g\sigma(138 + 102i) = -400 + 80i = g\sigma(139 + 103i)$$
-$$g\sigma(149 + 53i) = -340 + 180i = g\sigma(150 + 54i)$$
+%$$g\sigma(149 + 53i) = -340 + 180i = g\sigma(150 + 54i)$$
 
 \end{document}  
 
