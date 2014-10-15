@@ -11,12 +11,13 @@ applied by a linear transformation x^n
 #_________________#
 
 import cmath
+import fractions
 
 #_________________#
-# list
+# listit
 #_________________#
 
-def list(r,i):
+def reslist(r,i):
     '''
     r + ij is the modulis we will be working with
     return the list of residues
@@ -42,7 +43,7 @@ def shift(n, r, i):
     return the new list of residues while printing both in and out
     '''
 
-    before = list(r,i)
+    before = reslist(r,i)
     new = []
     for item in before:
         x,y = item
@@ -50,29 +51,58 @@ def shift(n, r, i):
         v = v%complex(r,i)
         x = int(v.real)
         y = int(v.imag)
-        while abs(x) > r or abs(y) > i or x<0 or y<0 :
+        while abs(x) > r or abs(y) > i or x < 0 or y < 0 :
             v = (complex(x,y)*1j)%complex(r,i)
             x = int(v.real)
             y = int(v.imag)
-##            print(v)
+            print(v)
+            
         new.append([x,y])
-##    print(tuple(before))
-##    print(tuple(new))
+        
     mapped = zip(before,new)
     for item in mapped:
         print(item)
 
-shift(3,10,10)
+    return new
+
 
 #_________________#
 # check
 #_________________#
 
-def check():
+def check(r,i):
     '''
+    r + ij will be the modulus
+    checking powers up to the norm that work
     to be cont... [ the point of this program is to check the powers/scalars
     that will produce an linear transformation]
     '''
+    n = int(r**2 + i**2)
+    for a in range(1,n):
+        print(a)
+        shift(a,r,i)
+        print()
+        print()
+
+
+####    n = int(r**2 + i**2)
+####    u = reslist(r,i)
+####    pps = []
+####    
+####    for a in range(1,n):
+####        v = shift(a,r,i)
+####        flag = True
+####        
+####        for item in u:
+####            if item not in v:
+####                flag = False
+####        if flag == True:
+####            pps.append(a)
+####            
+####    print(pps)
+####    return pps
+####
+check(5,2)
 
 
 '''
@@ -80,3 +110,4 @@ after producing the number of numbers that make a linear transformation my next
 objective will be to produce a map each one and classify which groups align up
 to produce the same linear transformation/ anyway i can relate the transformations
 '''
+              
