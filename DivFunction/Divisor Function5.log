@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.11)  13 OCT 2014 13:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.11)  10 NOV 2014 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,13 +294,13 @@ Class amsart Warning: Abstract should precede \maketitle in AMS document classe
 s; reported on input line 18.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 45.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
 ! Undefined control sequence.
-l.50 ...$g\sigma(n) = n+1 = g\sigma(n+1) = \gsigma
+l.50 ...$g\sigma(z) = z+1 = g\sigma(z+1) = \gsigma
                                                   (1+i) = (2+i)(a + bi +1)$,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -314,41 +314,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
  []
 
 ! Undefined control sequence.
-l.56 ...(c+di) - 1$.  Assume $g\sigma(n) = g\simga
-                                                  (n+1)$, then $g\sigma(1+i)...
+l.56 ...(c+di) - 1$.  Assume $g\sigma(z) = g\simga
+                                                  (z+1)$, then $g\sigma(1+i)...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-
- []
-
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
+Underfull \hbox (badness 10000) in paragraph at lines 101--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
+Underfull \hbox (badness 10000) in paragraph at lines 101--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--100
+Underfull \hbox (badness 10000) in paragraph at lines 109--113
 
  []
 
@@ -360,7 +360,7 @@ Here is how much of TeX's memory you used:
  6607 multiletter control sequences out of 15000+600000
  11480 words of font info for 47 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
- 37i,6n,31p,825b,197s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,31p,975b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
@@ -376,7 +376,7 @@ ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
 amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/doublestroke/
 dsrom12.pfb>
-Output written on "Divisor Function5.pdf" (5 pages, 160408 bytes).
+Output written on "Divisor Function5.pdf" (5 pages, 164855 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream

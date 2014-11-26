@@ -63,6 +63,35 @@ def main():
     return q
 
 main()
+#####################
+# complex_hailstone #
+#####################
+
+def chail(a,b):
+    '''
+    Hailstone Sequence for complex number 0_0
+    '''
+    n = complex(a,b)
+    cycle = 0
+    while n.real != complex(1,0):
+        if n.real % 2 == 0 and n.imag% 2 == 0:
+            n = n /(complex(2,0))
+            n = complex(int(n.real),int(n.imag))
+            print(n)
+            cycle += 1
+        else:
+            n = complex(3,0)*n + complex(1,1) 
+            n = complex(int(n.real),int(n.imag))
+            print(n)
+            cycle += 1
+        while n.real < 0 and n.imag < 0:
+            n = n*1j
+    return cycle
+        
+#chail(3,3)   
+
+
+
 
 # *2, +1
 '''
